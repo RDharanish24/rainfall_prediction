@@ -14,10 +14,9 @@ The model includes data preprocessing, exploratory data analysis, class imbalanc
 ├── rainfall.py
 ├── requirements.txt
 └── README.md
-⚙️ Technologies Used
 ```
-⚙️ Technologies 
-
+### ⚙️ Technologies 
+```
 Python
 
 NumPy
@@ -29,9 +28,9 @@ Scikit-learn
 Matplotlib
 
 Seaborn
+```
 
-
-📊 Dataset
+### 📊 Dataset
 
 The dataset contains daily weather observations.
 
@@ -49,25 +48,26 @@ Median for numerical features
 
 Place the dataset file as Rainfall.csv in the project root directory.
 
-🔧 Installation
+### 🔧 Installation
 
 Clone the repository:
-
-git clone <your-repository-url>
-cd <your-project-folder>
+```
+git clone https://github.com/RDharanish24/rainfall_prediction
+cd rainfall_prediction
+```
 
 
 Install the required dependencies:
-
+```
 pip install -r requirements.txt
-
-🚀 How to Run
+```
+### 🚀 How to Run
 
 Launch Jupyter Notebook:
-
+```
 jupyter notebook rainfall.py
 
-
+```
 Run all cells sequentially to:
 
 Preprocess the data
@@ -80,7 +80,7 @@ Evaluate performance
 
 Make predictions
 
-🧠 Model Workflow
+### 🧠 Model Workflow
 
 Data Cleaning and Preprocessing
 
@@ -96,7 +96,7 @@ Hyperparameter Tuning using GridSearchCV
 
 Model Evaluation
 
-📈 Model Evaluation Metrics
+### 📈 Model Evaluation Metrics
 
 Accuracy
 
@@ -110,7 +110,7 @@ Confusion Matrix
 
 Cross-Validation Score (5-fold)
 
-📌 Future Improvements
+### 📌 Future Improvements
 
 Use SMOTE for class imbalance handling
 
